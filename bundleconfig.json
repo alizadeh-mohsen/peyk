@@ -496,5 +496,11 @@
     "inputFiles": [
       "Varian.html"
     ]
+  },
+  {
+    "outputFileName": "206.min.html",
+    "inputFiles": [
+      "206.html"
+    ]
   }
 ]
