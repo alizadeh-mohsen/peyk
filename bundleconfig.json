@@ -1,0 +1,500 @@
+[
+  {
+    "outputFileName": "UPS.min.html",
+    "inputFiles": [
+      "UPS.html"
+    ]
+  },
+  {
+    "outputFileName": "About.min.html",
+    "inputFiles": [
+      "About.html"
+    ]
+  },
+  {
+    "outputFileName": "Aras-Battery.min.html",
+    "inputFiles": [
+      "Aras-Battery.html"
+    ]
+  },
+  {
+    "outputFileName": "Azar-Battery.min.html",
+    "inputFiles": [
+      "Azar-Battery.html"
+    ]
+  },
+  {
+    "outputFileName": "BatteryFaults.min.html",
+    "inputFiles": [
+      "BatteryFaults.html"
+    ]
+  },
+  {
+    "outputFileName": "Borna-Battery.min.html",
+    "inputFiles": [
+      "Borna-Battery.html"
+    ]
+  },
+  {
+    "outputFileName": "Delkor.min.html",
+    "inputFiles": [
+      "Delkor.html"
+    ]
+  },
+  {
+    "outputFileName": "Global.min.html",
+    "inputFiles": [
+      "Global.html"
+    ]
+  },
+  {
+    "outputFileName": "index.min.html",
+    "inputFiles": [
+      "index.html"
+    ]
+  },
+  {
+    "outputFileName": "KBS.min.html",
+    "inputFiles": [
+      "KBS.html"
+    ]
+  },
+  {
+    "outputFileName": "Maintenance.min.html",
+    "inputFiles": [
+      "Maintenance.html"
+    ]
+  },
+  {
+    "outputFileName": "NirooGostaran-Battery.min.html",
+    "inputFiles": [
+      "NirooGostaran-Battery.html"
+    ]
+  },
+  {
+    "outputFileName": "Orbital.min.html",
+    "inputFiles": [
+      "Orbital.html"
+    ]
+  },
+  {
+    "outputFileName": "price.min.html",
+    "inputFiles": [
+      "price.html"
+    ]
+  },
+  {
+    "outputFileName": "Recharge.min.html",
+    "inputFiles": [
+      "Recharge.html"
+    ]
+  },
+  {
+    "outputFileName": "Saba.min.html",
+    "inputFiles": [
+      "Saba.html"
+    ]
+  },
+  {
+    "outputFileName": "Sepahan-Battery.min.html",
+    "inputFiles": [
+      "Sepahan-Battery.html"
+    ]
+  },
+  {
+    "outputFileName": "Solit.min.html",
+    "inputFiles": [
+      "Solit.html"
+    ]
+  },
+  {
+    "outputFileName": "SOS.min.html",
+    "inputFiles": [
+      "SOS.html"
+    ]
+  },
+  {
+    "outputFileName": "SuitableBattery.min.html",
+    "inputFiles": [
+      "SuitableBattery.html"
+    ]
+  },
+  {
+    "outputFileName": "UsefulInfo.min.html",
+    "inputFiles": [
+      "UsefulInfo.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Baic.min.html",
+    "inputFiles": [
+      "Cars/Baic.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Benz.min.html",
+    "inputFiles": [
+      "Cars/Benz.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Bestern.min.html",
+    "inputFiles": [
+      "Cars/Bestern.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/BMW.min.html",
+    "inputFiles": [
+      "Cars/BMW.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Brilliance.min.html",
+    "inputFiles": [
+      "Cars/Brilliance.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/BYD.min.html",
+    "inputFiles": [
+      "Cars/BYD.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Changan.min.html",
+    "inputFiles": [
+      "Cars/Changan.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Chery.min.html",
+    "inputFiles": [
+      "Cars/Chery.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Citroen.min.html",
+    "inputFiles": [
+      "Cars/Citroen.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Daewoo.min.html",
+    "inputFiles": [
+      "Cars/Daewoo.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Dongfeng.min.html",
+    "inputFiles": [
+      "Cars/Dongfeng.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Fiat.min.html",
+    "inputFiles": [
+      "Cars/Fiat.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Geely.min.html",
+    "inputFiles": [
+      "Cars/Geely.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Greatwall.min.html",
+    "inputFiles": [
+      "Cars/Greatwall.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Haima.min.html",
+    "inputFiles": [
+      "Cars/Haima.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Honda.min.html",
+    "inputFiles": [
+      "Cars/Honda.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Hyundai.min.html",
+    "inputFiles": [
+      "Cars/Hyundai.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/IranKhodro.min.html",
+    "inputFiles": [
+      "Cars/IranKhodro.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Jac.min.html",
+    "inputFiles": [
+      "Cars/Jac.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Kia.min.html",
+    "inputFiles": [
+      "Cars/Kia.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Lexus.min.html",
+    "inputFiles": [
+      "Cars/Lexus.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Lifan.min.html",
+    "inputFiles": [
+      "Cars/Lifan.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Mazda.min.html",
+    "inputFiles": [
+      "Cars/Mazda.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/MG.min.html",
+    "inputFiles": [
+      "Cars/MG.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Mitsobishi.min.html",
+    "inputFiles": [
+      "Cars/Mitsobishi.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/MVM.min.html",
+    "inputFiles": [
+      "Cars/MVM.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Nissan.min.html",
+    "inputFiles": [
+      "Cars/Nissan.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Opel.min.html",
+    "inputFiles": [
+      "Cars/Opel.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/ParsKhodro.min.html",
+    "inputFiles": [
+      "Cars/ParsKhodro.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Pegeout.min.html",
+    "inputFiles": [
+      "Cars/Pegeout.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Pride.min.html",
+    "inputFiles": [
+      "Cars/Pride.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Proton.min.html",
+    "inputFiles": [
+      "Cars/Proton.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Renault.min.html",
+    "inputFiles": [
+      "Cars/Renault.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Saipa.min.html",
+    "inputFiles": [
+      "Cars/Saipa.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Samand.min.html",
+    "inputFiles": [
+      "Cars/Samand.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Ssangyang.min.html",
+    "inputFiles": [
+      "Cars/Ssangyang.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Suzuki.min.html",
+    "inputFiles": [
+      "Cars/Suzuki.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Toyota.min.html",
+    "inputFiles": [
+      "Cars/Toyota.html"
+    ]
+  },
+  {
+    "outputFileName": "Cars/Wolks.min.html",
+    "inputFiles": [
+      "Cars/Wolks.html"
+    ]
+  },
+  {
+    "outputFileName": "Aco.min.html",
+    "inputFiles": [
+      "Aco.html"
+    ]
+  },
+  {
+    "outputFileName": "css/style.min.css",
+    "inputFiles": [
+      "css/style.css"
+    ]
+  },
+  {
+    "outputFileName": "Aco-Battery.min.html",
+    "inputFiles": [
+      "Aco-Battery.html"
+    ]
+  },
+  {
+    "outputFileName": "BatteryError.min.html",
+    "inputFiles": [
+      "BatteryError.html"
+    ]
+  },
+  {
+    "outputFileName": "Boiled.min.html",
+    "inputFiles": [
+      "Boiled.html"
+    ]
+  },
+  {
+    "outputFileName": "Borna.min.html",
+    "inputFiles": [
+      "Borna.html"
+    ]
+  },
+  {
+    "outputFileName": "DamagedBattery.min.html",
+    "inputFiles": [
+      "DamagedBattery.html"
+    ]
+  },
+  {
+    "outputFileName": "Delkor-Battery.min.html",
+    "inputFiles": [
+      "Delkor-Battery.html"
+    ]
+  },
+  {
+    "outputFileName": "FakeBattery.min.html",
+    "inputFiles": [
+      "FakeBattery.html"
+    ]
+  },
+  {
+    "outputFileName": "Faq.min.html",
+    "inputFiles": [
+      "Faq.html"
+    ]
+  },
+  {
+    "outputFileName": "Global-Battery.min.html",
+    "inputFiles": [
+      "Global-Battery.html"
+    ]
+  },
+  {
+    "outputFileName": "Ias.min.html",
+    "inputFiles": [
+      "Ias.html"
+    ]
+  },
+  {
+    "outputFileName": "Karpil.min.html",
+    "inputFiles": [
+      "Karpil.html"
+    ]
+  },
+  {
+    "outputFileName": "Kia.min.html",
+    "inputFiles": [
+      "kia.html"
+    ]
+  },
+  {
+    "outputFileName": "RedOrbital.min.html",
+    "inputFiles": [
+      "RedOrbital.html"
+    ]
+  },
+  {
+    "outputFileName": "Saba-Battery.min.html",
+    "inputFiles": [
+      "Saba-Battery.html"
+    ]
+  },
+  {
+    "outputFileName": "Sahand.min.html",
+    "inputFiles": [
+      "Sahand.html"
+    ]
+  },
+  {
+    "outputFileName": "Sepahan.min.html",
+    "inputFiles": [
+      "Sepahan.html"
+    ]
+  },
+  {
+    "outputFileName": "SilverOrbital.min.html",
+    "inputFiles": [
+      "SilverOrbital.html"
+    ]
+  },
+  {
+    "outputFileName": "Solit-Battery.min.html",
+    "inputFiles": [
+      "Solit-Battery.html"
+    ]
+  },
+  {
+    "outputFileName": "Tiba.min.html",
+    "inputFiles": [
+      "Tiba.html"
+    ]
+  },
+  {
+    "outputFileName": "Tino.min.html",
+    "inputFiles": [
+      "Tino.html"
+    ]
+  },
+  {
+    "outputFileName": "Varian.min.html",
+    "inputFiles": [
+      "Varian.html"
+    ]
+  }
+]
