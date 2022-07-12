@@ -46,7 +46,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Shabnam-Bold";
-    font-weight: 700;
+    font-weight: 400;
 }
 
 h1 {
@@ -504,7 +504,7 @@ ul.social-buttons {
 
 .blueLink {
     color: #00f;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
     .blueLink:hover {
