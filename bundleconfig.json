@@ -24,27 +24,9 @@
     ]
   },
   {
-    "outputFileName": "BatteryFaults.min.html",
-    "inputFiles": [
-      "BatteryFaults.html"
-    ]
-  },
-  {
     "outputFileName": "Borna-Battery.min.html",
     "inputFiles": [
       "Borna-Battery.html"
-    ]
-  },
-  {
-    "outputFileName": "Delkor.min.html",
-    "inputFiles": [
-      "Delkor.html"
-    ]
-  },
-  {
-    "outputFileName": "Global.min.html",
-    "inputFiles": [
-      "Global.html"
     ]
   },
   {
@@ -53,76 +35,33 @@
       "index.html"
     ]
   },
-  {
-    "outputFileName": "KBS.min.html",
-    "inputFiles": [
-      "KBS.html"
-    ]
-  },
-  {
-    "outputFileName": "Maintenance.min.html",
-    "inputFiles": [
-      "Maintenance.html"
-    ]
-  },
+
   {
     "outputFileName": "NirooGostaran-Battery.min.html",
     "inputFiles": [
       "NirooGostaran-Battery.html"
     ]
   },
-  {
-    "outputFileName": "Orbital.min.html",
-    "inputFiles": [
-      "Orbital.html"
-    ]
-  },
+  
   {
     "outputFileName": "price.min.html",
     "inputFiles": [
       "price.html"
     ]
   },
-  {
-    "outputFileName": "Recharge.min.html",
-    "inputFiles": [
-      "Recharge.html"
-    ]
-  },
-  {
-    "outputFileName": "Saba.min.html",
-    "inputFiles": [
-      "Saba.html"
-    ]
-  },
+  
+  
   {
     "outputFileName": "Sepahan-Battery.min.html",
     "inputFiles": [
       "Sepahan-Battery.html"
     ]
   },
-  {
-    "outputFileName": "Solit.min.html",
-    "inputFiles": [
-      "Solit.html"
-    ]
-  },
-  {
-    "outputFileName": "SOS.min.html",
-    "inputFiles": [
-      "SOS.html"
-    ]
-  },
+  
   {
     "outputFileName": "SuitableBattery.min.html",
     "inputFiles": [
       "SuitableBattery.html"
-    ]
-  },
-  {
-    "outputFileName": "UsefulInfo.min.html",
-    "inputFiles": [
-      "UsefulInfo.html"
     ]
   },
   {
@@ -359,13 +298,7 @@
       "Cars/Wolks.html"
     ]
   },
-  {
-    "outputFileName": "Aco.min.html",
-    "inputFiles": [
-      "Aco.html"
-    ]
-  },
-  {
+    {
     "outputFileName": "css/style.min.css",
     "inputFiles": [
       "css/style.css"
@@ -377,132 +310,35 @@
       "Aco-Battery.html"
     ]
   },
-  {
-    "outputFileName": "BatteryError.min.html",
-    "inputFiles": [
-      "BatteryError.html"
-    ]
-  },
-  {
-    "outputFileName": "Boiled.min.html",
-    "inputFiles": [
-      "Boiled.html"
-    ]
-  },
-  {
-    "outputFileName": "Borna.min.html",
-    "inputFiles": [
-      "Borna.html"
-    ]
-  },
-  {
-    "outputFileName": "DamagedBattery.min.html",
-    "inputFiles": [
-      "DamagedBattery.html"
-    ]
-  },
+  
   {
     "outputFileName": "Delkor-Battery.min.html",
     "inputFiles": [
       "Delkor-Battery.html"
     ]
   },
-  {
-    "outputFileName": "FakeBattery.min.html",
-    "inputFiles": [
-      "FakeBattery.html"
-    ]
-  },
-  {
-    "outputFileName": "Faq.min.html",
-    "inputFiles": [
-      "Faq.html"
-    ]
-  },
+  
   {
     "outputFileName": "Global-Battery.min.html",
     "inputFiles": [
       "Global-Battery.html"
     ]
   },
-  {
-    "outputFileName": "Ias.min.html",
-    "inputFiles": [
-      "Ias.html"
-    ]
-  },
-  {
-    "outputFileName": "Karpil.min.html",
-    "inputFiles": [
-      "Karpil.html"
-    ]
-  },
-  {
-    "outputFileName": "Kia.min.html",
-    "inputFiles": [
-      "kia.html"
-    ]
-  },
-  {
-    "outputFileName": "RedOrbital.min.html",
-    "inputFiles": [
-      "RedOrbital.html"
-    ]
-  },
+  
   {
     "outputFileName": "Saba-Battery.min.html",
     "inputFiles": [
       "Saba-Battery.html"
     ]
   },
-  {
-    "outputFileName": "Sahand.min.html",
-    "inputFiles": [
-      "Sahand.html"
-    ]
-  },
-  {
-    "outputFileName": "Sepahan.min.html",
-    "inputFiles": [
-      "Sepahan.html"
-    ]
-  },
-  {
-    "outputFileName": "SilverOrbital.min.html",
-    "inputFiles": [
-      "SilverOrbital.html"
-    ]
-  },
+  
   {
     "outputFileName": "Solit-Battery.min.html",
     "inputFiles": [
       "Solit-Battery.html"
     ]
   },
-  {
-    "outputFileName": "Tiba.min.html",
-    "inputFiles": [
-      "Tiba.html"
-    ]
-  },
-  {
-    "outputFileName": "Tino.min.html",
-    "inputFiles": [
-      "Tino.html"
-    ]
-  },
-  {
-    "outputFileName": "Varian.min.html",
-    "inputFiles": [
-      "Varian.html"
-    ]
-  },
-  {
-    "outputFileName": "206.min.html",
-    "inputFiles": [
-      "206.html"
-    ]
-  },
+  
   {
     "outputFileName": "Blog/206.min.html",
     "inputFiles": [
