@@ -502,5 +502,155 @@
     "inputFiles": [
       "206.html"
     ]
+  },
+  {
+    "outputFileName": "Blog/206.min.html",
+    "inputFiles": [
+      "Blog/206.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Aco.min.html",
+    "inputFiles": [
+      "Blog/Aco.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/BatteryError.min.html",
+    "inputFiles": [
+      "Blog/BatteryError.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Boiled.min.html",
+    "inputFiles": [
+      "Blog/Boiled.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Borna.min.html",
+    "inputFiles": [
+      "Blog/Borna.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/DamagedBattery.min.html",
+    "inputFiles": [
+      "Blog/DamagedBattery.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/FakeBattery.min.html",
+    "inputFiles": [
+      "Blog/FakeBattery.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Faq.min.html",
+    "inputFiles": [
+      "Blog/Faq.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Global.min.html",
+    "inputFiles": [
+      "Blog/Global.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Guaranty.min.html",
+    "inputFiles": [
+      "Blog/Guaranty.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Ias.min.html",
+    "inputFiles": [
+      "Blog/Ias.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Karpil.min.html",
+    "inputFiles": [
+      "Blog/Karpil.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Kia.min.html",
+    "inputFiles": [
+      "Blog/Kia.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Maintenance.min.html",
+    "inputFiles": [
+      "Blog/Maintenance.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Recharge.min.html",
+    "inputFiles": [
+      "Blog/Recharge.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/RedOrbital.min.html",
+    "inputFiles": [
+      "Blog/RedOrbital.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Saba.min.html",
+    "inputFiles": [
+      "Blog/Saba.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Sahand.min.html",
+    "inputFiles": [
+      "Blog/Sahand.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Sepahan.min.html",
+    "inputFiles": [
+      "Blog/Sepahan.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/SilverOrbital.min.html",
+    "inputFiles": [
+      "Blog/SilverOrbital.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/SuitableBattery.min.html",
+    "inputFiles": [
+      "Blog/SuitableBattery.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Tiba.min.html",
+    "inputFiles": [
+      "Blog/Tiba.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Tino.min.html",
+    "inputFiles": [
+      "Blog/Tino.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog/Varian.min.html",
+    "inputFiles": [
+      "Blog/Varian.html"
+    ]
+  },
+  {
+    "outputFileName": "Blog.min.html",
+    "inputFiles": [
+      "Blog.html"
+    ]
   }
 ]
