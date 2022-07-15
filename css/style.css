@@ -32,6 +32,7 @@ p {
 }
 
 a {
+   color:#fff;
     font-family: "Shabnam-FD";
 }
 
@@ -506,7 +507,9 @@ ul.social-buttons {
     text-decoration: none;
 }
 
-    .blueLink:hover {
+    .blueLink:hover,
+    .blueLink:visited
+    {
         color: #00f;
     }
 
