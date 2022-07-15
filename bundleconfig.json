@@ -35,29 +35,24 @@
       "index.html"
     ]
   },
-
   {
     "outputFileName": "NirooGostaran-Battery.min.html",
     "inputFiles": [
       "NirooGostaran-Battery.html"
     ]
   },
-  
   {
     "outputFileName": "price.min.html",
     "inputFiles": [
       "price.html"
     ]
   },
-  
-  
   {
     "outputFileName": "Sepahan-Battery.min.html",
     "inputFiles": [
       "Sepahan-Battery.html"
     ]
   },
-  
   {
     "outputFileName": "SuitableBattery.min.html",
     "inputFiles": [
@@ -298,7 +293,7 @@
       "Cars/Wolks.html"
     ]
   },
-    {
+  {
     "outputFileName": "css/style.min.css",
     "inputFiles": [
       "css/style.css"
@@ -310,35 +305,30 @@
       "Aco-Battery.html"
     ]
   },
-  
   {
     "outputFileName": "Delkor-Battery.min.html",
     "inputFiles": [
       "Delkor-Battery.html"
     ]
   },
-  
   {
     "outputFileName": "Global-Battery.min.html",
     "inputFiles": [
       "Global-Battery.html"
     ]
   },
-  
   {
     "outputFileName": "Saba-Battery.min.html",
     "inputFiles": [
       "Saba-Battery.html"
     ]
   },
-  
   {
     "outputFileName": "Solit-Battery.min.html",
     "inputFiles": [
       "Solit-Battery.html"
     ]
   },
-  
   {
     "outputFileName": "Blog/206.min.html",
     "inputFiles": [
@@ -489,4 +479,5 @@
       "Blog.html"
     ]
   }
+  
 ]
