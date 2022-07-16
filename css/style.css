@@ -566,6 +566,9 @@ ul.social-buttons {
 }
 .myGreenText {
     color:#186146;
+}.myGreenTextBold {
+    color:#186146;
+    font-weight:bold;
 }
 .backgroudImage {
     background-image:url('../img/BP-min.jpg');

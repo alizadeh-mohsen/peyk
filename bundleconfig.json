@@ -478,6 +478,11 @@
     "inputFiles": [
       "Blog.html"
     ]
+  },
+  {
+    "outputFileName": "امداد-باتری/ارسال-فوری-باتری.min.html",
+    "inputFiles": [
+      "امداد-باتری/ارسال-فوری-باتری.html"
+    ]
   }
-  
 ]
