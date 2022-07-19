@@ -577,3 +577,10 @@ ul.social-buttons {
     background-attachment: fixed;
 
 }
+
+ video
+
+{
+    width: 100%;
+    height: auto;
+}
