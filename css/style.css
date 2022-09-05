@@ -22,7 +22,7 @@
 body {
     font-family: "Shabnam-FD";
     overflow-x: hidden;
-    direction: rtl;
+    direction: ltr;
 }
 
 p {
