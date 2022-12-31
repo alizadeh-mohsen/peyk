@@ -26,10 +26,10 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" />
     <script>
-function redirectToVip() {
+        function redirectToVip() {
             var mobile = document.getElementById("mobile").value;
-            window.location.href = "http://batterypeyk-vip.ir/m=" + mobile;
-}
+            window.location.href = "http://batterypeyk-vip.ir/index?m=" + mobile;
+        }
     </script>
 </head>
 <body id="page-top">
@@ -138,13 +138,21 @@ function redirectToVip() {
                     <p>
                         با خرید باتری از باتری پیک شما عضو افتخاری باشگاه مشتریان ما شده و صاحب پنل VIP میشوید.   شما می توانید با وارد کردن شماره موبایلی که هنگام خرید ارائه کرده اید، وارد پنل خود شده
                         و جزئیات مفیدی نظیر زمان باقی مانده از گارانتی ، تاریخ بهینه تعویض باتری و... را مشاهده کنید
-                    <p>لطفا برای ورود به پنل خود، شماره موبایل خود را وارد کنید: </p>
+                    <p>
+                        لطفا برای ورود به پنل خود
+                        <span class="text-danger">
+                            <strong>
+                                کیبورد گوشی را انگلیسی کرده
+                            </strong>
+                        </span>
+                        و شماره موبایل خود را وارد کنید.
+                    </p>
 
                     <div class="form-group">
                         <label for="mobile">شماره موبایل:</label>
                         <input type="text" class="form-control text-left" id="mobile">
                     </div>
-                    <button onclick="redirectToVip()" class="btn btn-primary">ورود</button>
+                    <button onclick="redirectToVip()" class="btn btn-primary">ورود به پنل VIP</button>
 
                 </div>
             </div>
