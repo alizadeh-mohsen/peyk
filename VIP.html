@@ -348,6 +348,7 @@
                         purchase = data.data.purchaseDate;
                         expire = data.data.expire;
                         status = data.data.status;
+                        batteryAge = data.data.batteryAge
                         var result = '<div class="container " dir="rtl"><div class="row"><div class="col">' +
                             '<p><strong>نام:  &nbsp;</strong>' + name +
                             '</p><p><strong>شماره موبایل:  &nbsp;</strong>' + phone +
@@ -357,6 +358,7 @@
                             '</p><p><strong>تاریخ خرید: &nbsp;</strong>' + purchase +
                             '</p><p><strong>تاریخ اتمام گارانتی:  &nbsp;</strong>' + expire +
                             '</p><p><strong> وضعیت باتری:  &nbsp;</strong>' + status +
+                            '</p><p><strong> عمر باتری:  &nbsp;</strong>' + batteryAge + '&nbsp; روز'
                             '</p></div> </div></div>';
 
                         $("#result").append(result).show();
