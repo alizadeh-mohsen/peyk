@@ -592,3 +592,8 @@ video {
 thead tr{
     background-color: #fec503
 }
+.imageOpc {
+    background-image: url('../img/LogoOpc.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
