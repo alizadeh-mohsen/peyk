@@ -368,6 +368,9 @@
                     <div class="imageOpc">
                         <div id="result" class="mt-3 p-4" style="box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;">
                         </div>
+                        <div id="spinner"  >
+                            <img src="img/Spinner.gif" />
+                        </div>
                     </div>
 
 
@@ -487,6 +490,7 @@
         $(document).ready(function () {
 
             $("#result").hide();
+            $("#spinner").hide();
             var urlParams = new URLSearchParams(window.location.search);
             
             if (urlParams.has('m'))
@@ -506,9 +510,11 @@
                     data: { value: 1 },
                     type: 'get',
                     beforeSend: function () { 
-                        $("#result").show();
+                        $("#spinner").show();
                     },
                     error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        $("#spinner").hide();
+                        $("#result").show();
                         if (XMLHttpRequest.status === 404) {
                             $("#result").append(
                                 '<span class="text-danger">شماره موبایل مورد نظر یافت نشد. کیبورد گوشی را انگلیسی کرده و مجددا تلاش کنید. در صورتیکه شماره موبایل صحیح وارد شده با تلفن های باتری پیک برای پشتیبانی تماس بگیرید</span>');
@@ -538,7 +544,8 @@
                             '</p><p><strong> سن باتری:  &nbsp;</strong>' + batteryAge + '&nbsp;روز'
                         '</p>';
 
-                        $("#result").append(result);
+                        $("#spinner").hide();
+                        $("#result").show().append(result);
                     },
                     complete: function () {
                     },
