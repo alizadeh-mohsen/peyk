@@ -347,19 +347,6 @@
                         </span>
                         و شماره موبایل خود را وارد کنید.
                     </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <div class="form-group">
                         <label for="mobile">شماره موبایل:</label>
                         <input type="text" class="form-control text-left" placeholder="09123456789" lang="en" id="mobile">
@@ -372,19 +359,6 @@
                             <img src="img/Spinner.gif" />
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </div>
             </div>
         </div>
@@ -487,7 +461,7 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <script>
-        $(document).ready(function () {
+        $(function () {
 
             $("#result").hide();
             $("#spinner").hide();
@@ -496,7 +470,7 @@
             if (urlParams.has('m'))
                 $("input").val(urlParams.get('m'));
 
-            $("button").click(function () {
+            $("button").on("click", (function () {
                 $("#result").empty();
                 phone = $("input").val();
 
@@ -554,11 +528,8 @@
                     complete: function () {
                     },
                 });
-            });
+            }));
         });
     </script>
-
-
 </body>
-
 </html>
