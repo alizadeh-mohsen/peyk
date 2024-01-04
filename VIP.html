@@ -298,24 +298,15 @@
         <div class="container">
             <div class="row mt-3">
                 <div class="col-lg-8 mx-auto text-center">
-                    <p>مشتری گرامی</p>
-                    <p>
-                        با خرید باتری از باتری پیک شما عضو افتخاری باشگاه مشتریان ما شده و صاحب پنل VIP میشوید. شما می
-                        توانید با وارد کردن شماره موبایلی که هنگام خرید ارائه کرده اید، وارد پنل خود شده
-                        و جزئیات مفیدی نظیر زمان باقی مانده از گارانتی ، تاریخ بهینه تعویض باتری و... را مشاهده کنید
-                    <p>
-                        لطفا برای مشاهده مشخصات باتری خریداری شده
-                        <span class="text-danger">
-                            <strong>کیبورد گوشی را انگلیسی کرده
-                            </strong>
-                        </span>
-                        و شماره موبایل خود را وارد کنید.
+                    <p id="title">
                     </p>
-                    <div class="form-group">
-                        <label for="mobile">شماره موبایل:</label>
-                        <input type="text" class="form-control text-left" placeholder="09123456789" lang="en" id="mobile">
-                    </div>
-                    <button class="btn btn-primary">مشاهده مشخصات باتری</button>
+                    <p>
+                        با خرید از باتری پیک شما عضو افتخاری باشگاه مشتریان ما شده و صاحب پنل VIP شده اید.
+با مراجعه به این پنل اطلاعات 
+                        مفیدی را در مورد باتری خریداری شده مشاهده می کنید.
+                        با اطلاع از این موارد از ضعیف شدن و یا از کار افتادن ناگهانی باتری ماشین خود جلوگیری می کنید. علاوه بر این مشتریان VIP
+                        زودتر از سایر مشتریان از تخفیفات، پشتیبانی سریع و مزایای دیگر مطلع میشوند.
+                    </p>
                     <div class="imageOpc">
                         <div id="result" class="mt-3 p-4" style="box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;">
                         </div>
@@ -428,69 +419,62 @@
             $("#spinner").hide();
             var urlParams = new URLSearchParams(window.location.search);
 
-            if (urlParams.has('m'))
-                $("input").val(urlParams.get('m'));
+            phone = urlParams.get('m');
 
-            $("button").on("click", (function () {
-                $("#result").empty();
-                phone = $("input").val();
+            if (phone.length === 0) {
+                return;
+            }
 
-                if (phone.length === 0) {
-                    $("#result").show().append("لطفا شماره موبایل خود را وارد نمایید");
-                    return;
-                }
+            $.ajax({
+                type: 'GET',
+                url: "https://batterypeyk-vip.ir/api/customers/" + phone,
 
-                $.ajax({
-                    type: 'GET',
-                    url: "https://batterypeyk-vip.ir/api/customers/" + phone,
+                data: { value: 1 },
+                dataType: 'json',
 
-                    data: { value: 1 },
-                    dataType: 'json',
+                beforeSend: function () {
+                    $("#spinner").show();
+                },
+                error: function (XMLHttpRequest) {
+                    $("#spinner").hide();
+                    $("#result").show();
+                    if (XMLHttpRequest.status === 404) {
+                        $("#result").append(
+                            '<span class="text-danger">شماره موبایل مورد نظر یافت نشد. با تلفن های باتری پیک برای پشتیبانی تماس بگیرید</span>');
+                    }
+                    else
+                        $("#result").append('status:' + XMLHttpRequest.status + ', status text: ' + XMLHttpRequest.statusText);
+                },
+                success: function (data) {
+                    $('#title').html(data.data.name + ' عزیز,');
+                    var result =
 
-                    beforeSend: function () {
-                        $("#spinner").show();
-                    },
-                    error: function (XMLHttpRequest, textStatus, errorThrown) {
-                        $("#spinner").hide();
-                        $("#result").show();
-                        if (XMLHttpRequest.status === 404) {
-                            $("#result").append(
-                                '<span class="text-danger">شماره موبایل مورد نظر یافت نشد. کیبورد گوشی را انگلیسی کرده و مجددا تلاش کنید. در صورتیکه شماره موبایل صحیح وارد شده با تلفن های باتری پیک برای پشتیبانی تماس بگیرید</span>');
-                        }
-                        else
-                            $("#result").append('status:' + XMLHttpRequest.status + ', status text: ' + XMLHttpRequest.statusText);
-                    },
-                    success: function (data) {
+                        '<p><strong>نام:  &nbsp;</strong>' + data.data.name +
+                        '</p><p><strong>شماره تماس:  &nbsp;</strong>' + data.data.phone +
+                        '</p><p><strong>آدرس:  &nbsp;</strong>' + data.data.address +
+                        '</p><p><hr></p>';
 
-                        var result =
+                    for (var i = 0; i < data.data.carDtos.length; i++) {
 
-                            '<p><strong>نام:  &nbsp;</strong>' + data.data.name +
-                            '</p><p><strong>شماره تماس:  &nbsp;</strong>' + data.data.phone +
-                            '</p><p><strong>آدرس:  &nbsp;</strong>' + data.data.address +
+                        result +=
+
+                            '</p><p><strong>ماشین:  &nbsp;</strong>' + data.data.carDtos[i].make +
+                            '</p><p><strong>باتری:  &nbsp;</strong>' + data.data.carDtos[i].battery +
+                            '</p><p><strong>تاریخ خرید: &nbsp;</strong>' + data.data.carDtos[i].purchaseDate +
+                            '</p><p><strong>تاریخ اتمام گارانتی:  &nbsp;</strong>' + data.data.carDtos[i].expire +
+                            '</p><p><strong> وضعیت باتری:  &nbsp;</strong>' + data.data.carDtos[i].status +
+                            '</p><p><strong> سن باتری:  &nbsp;</strong>' + data.data.carDtos[i].batteryAge + '&nbsp;روز' +
+                            '</p><p><strong> تاریخ بهینه تعویض:  &nbsp;</strong>' + data.data.carDtos[i].replacementDate +
                             '</p><p><hr></p>';
-
-                        for (var i = 0; i < data.data.carDtos.length; i++) {
-
-                            result +=
-
-                                '</p><p><strong>ماشین:  &nbsp;</strong>' + data.data.carDtos[i].make +
-                                '</p><p><strong>باتری:  &nbsp;</strong>' + data.data.carDtos[i].battery +
-                                '</p><p><strong>تاریخ خرید: &nbsp;</strong>' + data.data.carDtos[i].purchaseDate +
-                                '</p><p><strong>تاریخ اتمام گارانتی:  &nbsp;</strong>' + data.data.carDtos[i].expire +
-                                '</p><p><strong> وضعیت باتری:  &nbsp;</strong>' + data.data.carDtos[i].status +
-                                '</p><p><strong> سن باتری:  &nbsp;</strong>' + data.data.carDtos[i].batteryAge + '&nbsp;روز' +
-                                '</p><p><strong> تاریخ بهینه تعویض:  &nbsp;</strong>' + data.data.carDtos[i].replacementDate +
-                                '</p><p><hr></p>';
-                        }
+                    }
 
 
-                        $("#spinner").hide();
-                        $("#result").show().append(result);
-                    },
-                    complete: function () {
-                    },
-                });
-            }));
+                    $("#spinner").hide();
+                    $("#result").show().append(result);
+                },
+                complete: function () {
+                },
+            });
         });
     </script>
 </body>
