@@ -355,7 +355,7 @@
                         </p>
                         <div class="form-group">
                             <label for="mobile">شماره موبایل:</label>
-                            <input type="text" class="form-control text-left" placeholder="09123456789" lang="en" id="mobile">
+                            <input type="text" class="form-control text-left" style="direction:ltr" placeholder="09123456789" lang="en" id="mobile">
                         </div>
                         <button class="btn btn-primary" clic>مشاهده مشخصات باتری</button>
                     </div>
@@ -475,28 +475,33 @@
             $("#manual").hide();
 
             var urlParams = new URLSearchParams(window.location.search);
-            phone = urlParams.get('m');
-            
+            let phoneFromQueryString = urlParams.get('m');
+
             $("button").on("click", (function () {
                 $("#result").empty();
-                phone = $("input").val();
+               let phoneFromInput = $("input").val().trim();
 
-                if (phone.length === 0) {
-                    $("#result").show().append("لطفا شماره موبایل خود را وارد نمایید");
+                if (phoneFromInput.length === 0 || phoneFromInput.tr === 0) {
+                    $("#result").show().append('<span class="text-danger">لطفا شماره موبایل خود را وارد نمایید<span class="text-danger"></span>');
                     return;
                 }
-                getCustomer(phone);
+
+                if (phoneFromInput.startsWith("0") == false) {
+                    phoneFromInput = "0" + phoneFromInput;
+
+                }
+                getCustomer(phoneFromInput);
                 $("#manual").hide();
             }));
 
-            
-            if (phone == null)
+
+            if (phoneFromQueryString == null)
                 $("#manual").show();
             else
-                getCustomer(phone);
+                getCustomer(phoneFromQueryString);
 
 
-            
+
         });
         function getCustomer(phone) {
             $.ajax({
@@ -515,6 +520,8 @@
                     if (XMLHttpRequest.status === 404) {
                         $("#result").append(
                             '<span class="text-danger">شماره موبایل مورد نظر یافت نشد. کیبورد گوشی را انگلیسی کرده و مجددا تلاش کنید. در صورتیکه شماره موبایل صحیح وارد شده با تلفن های باتری پیک برای پشتیبانی تماس بگیرید</span>');
+                        $("#manual").show();
+
                     }
                     else
                         $("#result").append('status:' + XMLHttpRequest.status + ', status text: ' + XMLHttpRequest.statusText);
