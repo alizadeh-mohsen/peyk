@@ -479,7 +479,7 @@
 
             $("button").on("click", (function () {
                 $("#result").empty();
-               let phoneFromInput = $("input").val().trim();
+                let phoneFromInput = $("input").val().trim();
 
                 if (phoneFromInput.length === 0 || phoneFromInput.tr === 0) {
                     $("#result").show().append('<span class="text-danger">لطفا شماره موبایل خود را وارد نمایید<span class="text-danger"></span>');
@@ -539,14 +539,14 @@
 
                         result +=
 
-                            '</p><p><strong>ماشین:  &nbsp;</strong>' + data.data.carDtos[i].make +
-                            '</p><p><strong>باتری:  &nbsp;</strong>' + data.data.carDtos[i].battery +
-                            '</p><p><strong>تاریخ خرید: &nbsp;</strong>' + data.data.carDtos[i].purchaseDate +
-                            '</p><p><strong>تاریخ اتمام گارانتی:  &nbsp;</strong>' + data.data.carDtos[i].expire +
-                            '</p><p><strong> وضعیت باتری:  &nbsp;</strong>' + data.data.carDtos[i].status +
-                            '</p><p><strong> سن باتری:  &nbsp;</strong>' + data.data.carDtos[i].batteryAge + '&nbsp;روز' +
-                            '</p><p><strong> تاریخ بهینه تعویض:  &nbsp;</strong>' + data.data.carDtos[i].replacementDate +
-                            '</p><p><hr></p>';
+                        '</p><p><strong>ماشین:  &nbsp;</strong>' + data.data.carDtos[i].make + ' ' + (data.data.carDtos[i].isCompany ? data.data.carDtos[i].comment : '') +
+                        '</p><p><strong>باتری:  &nbsp;</strong>' + data.data.carDtos[i].battery +
+                        '</p><p><strong>تاریخ خرید: &nbsp;</strong>' + data.data.carDtos[i].purchaseDate +
+                        '</p><p><strong>تاریخ اتمام گارانتی:  &nbsp;</strong>' + data.data.carDtos[i].expire +
+                        '</p><p><strong> وضعیت باتری:  &nbsp;</strong>' + data.data.carDtos[i].status +
+                        '</p><p><strong> سن باتری:  &nbsp;</strong>' + data.data.carDtos[i].batteryAge + '&nbsp;روز' +
+                        '</p><p><strong> تاریخ بهینه تعویض:  &nbsp;</strong>' + data.data.carDtos[i].replacementDate +
+                        '</p><p><hr></p>';
                     }
 
 
