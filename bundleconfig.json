@@ -484,10 +484,17 @@
     "inputFiles": [
       "Varta-Battery.html"
     ]
-  },{
+  },
+  {
     "outputFileName": "VIP.min.html",
     "inputFiles": [
       "VIP.html"
+    ]
+  },
+  {
+    "outputFileName": "KhodroService.min.html",
+    "inputFiles": [
+      "KhodroService.html"
     ]
   }
 ]
