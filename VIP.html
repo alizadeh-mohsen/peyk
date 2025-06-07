@@ -527,12 +527,11 @@
                         $("#result").append('status:' + XMLHttpRequest.status + ', status text: ' + XMLHttpRequest.statusText);
                 },
                 success: function (data) {
-                    console.log(data);
                     $('#title').html(data.data.name + ' عزیز,');
                     var result =
 
                         '<p><strong>نام:  &nbsp;</strong>'
-                        + (data.data.carDtos[0].isCompany ? '<a style="text-decoration: none;color:Blue" href="KhodroService.html?m=' + phone + '">' + data.data.name+'</a>' : data.data.name) +
+                        + (data.data.carDtos[0].isCompany ? '<a style="text-decoration: none;color:Blue" href="Company.html?m=' + phone + '">' + data.data.name+'</a>' : data.data.name) +
                         '</p><p><strong>شماره تماس:  &nbsp;</strong>' + data.data.phone +
                         '</p><p><strong>آدرس:  &nbsp;</strong>' + data.data.address +
                         '</p><p><hr></p>';

@@ -496,5 +496,17 @@
     "inputFiles": [
       "KhodroService.html"
     ]
+  },
+  {
+    "outputFileName": "MahPeyma.min.html",
+    "inputFiles": [
+      "MahPeyma.html"
+    ]
+  },
+  {
+    "outputFileName": "Company.min.html",
+    "inputFiles": [
+      "Company.html"
+    ]
   }
 ]
