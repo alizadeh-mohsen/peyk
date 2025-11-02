@@ -334,15 +334,21 @@
             <div class="row mt-3">
                 <div class="col-lg-8 mx-auto text-center">
                     <img src="img/Vip.png" width="120" height="127" alt="vip" />
-                    <p id="title">
-                    </p>
-                    <p>
+                    <div class="text-right">
                         با خرید از باتری پیک شما عضو افتخاری باشگاه مشتریان ما شده و صاحب پنل VIP شده اید.
-                        با مراجعه به این پنل علاوه بر اینکه اطلاعات
-                        مفیدی در مورد وضعیت باتری خریداری شده کسب می کنید که
-                        از ضعیف شدن و یا از کار افتادن ناگهانی باتری خودرو جلوگیری می کند،
-                        زودتر از سایر مشتریان از تخفیفات، پشتیبانی سریع و مزایای دیگر بهره مند می شوید.
-                    </p>
+                        با مراجعه به این پنل می توانید:
+                        <ul>
+                            <li>
+                                اطلاعات مفیدی در مورد وضعیت باتری خریداری شده کسب کنید که
+                                از ضعیف شدن و یا از کار افتادن ناگهانی باتری خودرو جلوگیری می کند.
+                            </li>
+                            <li>
+                                در خرید های بعدی و یا با معرفی دیگران به مجموعه باتری پیک از تخفیف برخوردار شوید.
+                            </li>
+                            <li>از پشتیبانی سریع و دریافت پیامک یادآوری زمان تعویض باتری بهره مند شوید.</li>
+                        </ul>
+                    </div>
+
                     <div id="manual">
                         <p>
                             لطفا برای مشاهده مشخصات باتری خریداری شده
@@ -461,7 +467,7 @@
             </div>
         </div>
     </div>
-    <a href="KhodroService.html" > </a>
+    <a href="KhodroService.html"> </a>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script>(function (n) { "use strict"; n('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () { if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) { var t = n(this.hash); if (t = t.length ? t : n("[name=" + this.hash.slice(1) + "]"), t.length) return n("html, body").animate({ scrollTop: t.offset().top - 54 }, 1e3, "easeInOutExpo"), !1 } }); n(".js-scroll-trigger").click(function () { n(".navbar-collapse").collapse("hide") }); n("body").scrollspy({ target: "#mainNav", offset: 56 }); var t = function () { n("#mainNav").offset().top > 100 ? n("#mainNav").addClass("navbar-shrink") : n("#mainNav").removeClass("navbar-shrink") }; t(); n(window).scroll(t) })(jQuery)</script>
@@ -531,7 +537,7 @@
                     var result =
 
                         '<p><strong>نام:  &nbsp;</strong>'
-                        + (data.data.carDtos[0].isCompany ? '<a style="text-decoration: none;color:Blue" href="Company.html?m=' + phone + '">' + data.data.name+'</a>' : data.data.name) +
+                        + (data.data.carDtos[0].isCompany ? '<a style="text-decoration: none;color:Blue" href="Company.html?m=' + phone + '">' + data.data.name + '</a>' : data.data.name) +
                         '</p><p><strong>شماره تماس:  &nbsp;</strong>' + data.data.phone +
                         '</p><p><strong>آدرس:  &nbsp;</strong>' + data.data.address +
                         '</p><p><hr></p>';
@@ -540,14 +546,14 @@
 
                         result +=
 
-                        '</p><p><strong>ماشین:  &nbsp;</strong>' + data.data.carDtos[i].make + ' ' + (data.data.carDtos[i].isCompany ? ' پلاک [ '+data.data.carDtos[i].comment + ' ]': '') +
-                        '</p><p><strong>باتری:  &nbsp;</strong>' + data.data.carDtos[i].battery +
-                        '</p><p><strong>تاریخ خرید: &nbsp;</strong>' + data.data.carDtos[i].purchaseDate +
-                        '</p><p><strong>تاریخ اتمام گارانتی:  &nbsp;</strong>' + data.data.carDtos[i].expire +
-                        '</p><p><strong> وضعیت باتری:  &nbsp;</strong>' + data.data.carDtos[i].status +
-                        '</p><p><strong> سن باتری:  &nbsp;</strong>' + data.data.carDtos[i].batteryAge + '&nbsp;روز' +
-                        '</p><p><strong> تاریخ بهینه تعویض:  &nbsp;</strong>' + data.data.carDtos[i].replacementDate +
-                        '</p><p><hr></p>';
+                            '</p><p><strong>ماشین:  &nbsp;</strong>' + data.data.carDtos[i].make + ' ' + (data.data.carDtos[i].isCompany ? ' پلاک [ ' + data.data.carDtos[i].comment + ' ]' : '') +
+                            '</p><p><strong>باتری:  &nbsp;</strong>' + data.data.carDtos[i].battery +
+                            '</p><p><strong>تاریخ خرید: &nbsp;</strong>' + data.data.carDtos[i].purchaseDate +
+                            '</p><p><strong>تاریخ اتمام گارانتی:  &nbsp;</strong>' + data.data.carDtos[i].expire +
+                            '</p><p><strong> وضعیت باتری:  &nbsp;</strong>' + data.data.carDtos[i].status +
+                            '</p><p><strong> سن باتری:  &nbsp;</strong>' + data.data.carDtos[i].batteryAge + '&nbsp;روز' +
+                            '</p><p><strong> تاریخ بهینه تعویض:  &nbsp;</strong>' + data.data.carDtos[i].replacementDate +
+                            '</p><p><hr></p>';
                     }
 
 
