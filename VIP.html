@@ -335,6 +335,8 @@
                 <div class="col-lg-8 mx-auto text-center">
                     <img src="img/Vip.png" width="120" height="127" alt="vip" />
                     <div class="text-right">
+                        <p id="customerName">
+                        </p> 
                         با خرید از باتری پیک شما عضو افتخاری باشگاه مشتریان ما شده و صاحب پنل VIP شده اید.
                         با مراجعه به این پنل می توانید:
                         <ul>
@@ -533,7 +535,7 @@
                         $("#result").append('status:' + XMLHttpRequest.status + ', status text: ' + XMLHttpRequest.statusText);
                 },
                 success: function (data) {
-                    $('#title').html(data.data.name + ' عزیز,');
+                    $('#customerName').html(data.data.name + ' عزیز,');
                     var result =
 
                         '<p><strong>نام:  &nbsp;</strong>'
