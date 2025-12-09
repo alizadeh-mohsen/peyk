@@ -508,5 +508,17 @@
     "inputFiles": [
       "Company.html"
     ]
+  },
+  {
+    "outputFileName": "Pasargad-Sanat.min.html",
+    "inputFiles": [
+      "Pasargad-Sanat.html"
+    ]
+  },
+  {
+    "outputFileName": "Kerman-Battery.min.html",
+    "inputFiles": [
+      "Kerman-Battery.html"
+    ]
   }
 ]
